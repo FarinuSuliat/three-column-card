@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pack1,.pack2,.pack3{
+    height: 100%;
+    width: 33.3%;
+    padding: 2% 4%;
+}
+.pack1 {
+       background-color: #e28525;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pack2 {
+    background-color: #016972;
+}
+.pack3 {
+    background-color: #00403f;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.circle1,.circle2,.circle3{
+    width: 100px;
+    height: 70px;
+    }
+.box1,.box2,.box3{
+    width: 80%;
+    height: 20%;
+    font-family: 'Courier New';
+    font-size: 50px;
+    }
+.box1 {
+    color: #fef0d1;
+}
+.box2 {
+    color: #e6f6f7;
+}
+.box3 {
+    color: #edf7f8;
+}
+.can1,.can2,.can3{
+    width: 95%;
+    height: 50%;
+    font-family:Arial ;
+    font-size:1rem;
+    word-spacing: 3px;
+}
+.can1 {
+    color: #ffdb9a;
+    }
+.can2 {
+    color: #81c3cd;
+    }
+.can3 {
+    color: #a1cacc;
+    }
+.bag1 {
+    color: #c69969;
+    }
+.bag2 {
+    color: #719094;
+   }
+.bag3 {
+    color: #223735;
+    }
+   .one,.two,.three{
+        padding: 8% 20%;
+        border-radius: 30px;
+        cursor: pointer;
+        border-color:white;
+     }
+    .three:hover{
+        background-color: #00403f;
+        color: #f2f2f2;
+     } 
+     .one:hover{
+        background-color:#e28525;
+        color: #f2f2f2; ;
+     }
+     .two:hover{
+        background-color:#016972;
+        color: #f2f2f2; ;
+     }
+     .one{
+        color: #e28525;
+     }
+     .two{
+        color: #016972;
+     }
+     .three{
+        color: #00403f;
+     }
